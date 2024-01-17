@@ -10,8 +10,6 @@ WORKDIR /QA_ws
 
 COPY src /QA_ws/src
 
-VOLUME /src /QA_ws/src
-
 RUN /bin/bash -c '. /opt/ros/foxy/setup.bash' && \
     colcon build --symlink-install 
     
