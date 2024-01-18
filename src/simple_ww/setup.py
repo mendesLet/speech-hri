@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'simple_nlu'
+package_name = 'simple_ww'
 
 setup(
     name=package_name,
@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'server = simple_nlu.nlu_server:main',
-            'client = simple_nlu.nlu_client:main',
+            'wakeword_node = simple_ww.wakeword_node:main',
         ],
     },
 )

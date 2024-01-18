@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'simple_nlu'
+package_name = 'simple_asr'
 
 setup(
     name=package_name,
@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'server = simple_nlu.nlu_server:main',
-            'client = simple_nlu.nlu_client:main',
+            'node = simple_asr.asr_node:main'
         ],
     },
 )

@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'simple_nlu'
+package_name = 'simple_tts'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'server = simple_nlu.nlu_server:main',
-            'client = simple_nlu.nlu_client:main',
+            'server = simple_tts.tts_server:main',
+            'client = simple_tts.tts_client:main',
         ],
     },
 )
