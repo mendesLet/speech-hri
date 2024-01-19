@@ -1,0 +1,4 @@
+[console_scripts]
+client = simple_nlu.nlu_client:main
+server = simple_nlu.nlu_server:main
+

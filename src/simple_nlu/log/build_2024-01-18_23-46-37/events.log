@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (simple_nlu) JobQueued: {'identifier': 'simple_nlu', 'dependencies': OrderedDict()}
+[0.000386] (simple_nlu) JobStarted: {'identifier': 'simple_nlu'}
+[0.099066] (-) TimerEvent: {}
+[0.199646] (-) TimerEvent: {}
+[0.300182] (-) TimerEvent: {}
+[0.400740] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.515808] (simple_nlu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/simple_nlu', 'build', '--build-base', '/QA_ws/src/simple_nlu/build/simple_nlu/build', 'install', '--record', '/QA_ws/src/simple_nlu/build/simple_nlu/install.log', '--install-scripts', '$base/lib/simple_nlu', '--single-version-externally-managed'], 'cwd': '/QA_ws/src/simple_nlu', 'env': {'HOSTNAME': 'a52668636cb2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/QA_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/QA_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/QA_ws/install/simple_nlu:/opt/ros/foxy', 'PWD': '/QA_ws/src/simple_nlu/build/simple_nlu', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/QA_ws/src/simple_nlu/build/simple_nlu/prefix_override:/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages:/QA_ws/install/simple_nlu/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.601409] (-) TimerEvent: {}
+[0.681238] (simple_nlu) StdoutLine: {'line': b'running egg_info\n'}
+[0.685551] (simple_nlu) StdoutLine: {'line': b'creating build/simple_nlu/simple_nlu.egg-info\n'}
+[0.685915] (simple_nlu) StdoutLine: {'line': b'writing build/simple_nlu/simple_nlu.egg-info/PKG-INFO\n'}
+[0.686357] (simple_nlu) StdoutLine: {'line': b'writing dependency_links to build/simple_nlu/simple_nlu.egg-info/dependency_links.txt\n'}
+[0.686588] (simple_nlu) StdoutLine: {'line': b'writing entry points to build/simple_nlu/simple_nlu.egg-info/entry_points.txt\n'}
+[0.686765] (simple_nlu) StdoutLine: {'line': b'writing requirements to build/simple_nlu/simple_nlu.egg-info/requires.txt\n'}
+[0.686886] (simple_nlu) StdoutLine: {'line': b'writing top-level names to build/simple_nlu/simple_nlu.egg-info/top_level.txt\n'}
+[0.687720] (simple_nlu) StdoutLine: {'line': b"writing manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'\n"}
+[0.701509] (-) TimerEvent: {}
+[0.717924] (simple_nlu) StdoutLine: {'line': b"reading manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'\n"}
+[0.718382] (simple_nlu) StdoutLine: {'line': b"writing manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'\n"}
+[0.718546] (simple_nlu) StdoutLine: {'line': b'running build\n'}
+[0.718611] (simple_nlu) StdoutLine: {'line': b'running build_py\n'}
+[0.718748] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/build/simple_nlu/build\n'}
+[0.718835] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/build/simple_nlu/build/lib\n'}
+[0.718911] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu\n'}
+[0.719028] (simple_nlu) StdoutLine: {'line': b'copying simple_nlu/nlu_server.py -> /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu\n'}
+[0.719110] (simple_nlu) StdoutLine: {'line': b'copying simple_nlu/__init__.py -> /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu\n'}
+[0.719181] (simple_nlu) StdoutLine: {'line': b'running install\n'}
+[0.719981] (simple_nlu) StdoutLine: {'line': b'running install_lib\n'}
+[0.721046] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu\n'}
+[0.721383] (simple_nlu) StdoutLine: {'line': b'copying /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu/nlu_server.py -> /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu\n'}
+[0.721568] (simple_nlu) StdoutLine: {'line': b'copying /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu/__init__.py -> /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu\n'}
+[0.721761] (simple_nlu) StdoutLine: {'line': b'byte-compiling /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu/nlu_server.py to nlu_server.cpython-38.pyc\n'}
+[0.723094] (simple_nlu) StdoutLine: {'line': b'byte-compiling /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu/__init__.py to __init__.cpython-38.pyc\n'}
+[0.723291] (simple_nlu) StdoutLine: {'line': b'running install_data\n'}
+[0.723652] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index\n'}
+[0.723793] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index\n'}
+[0.723859] (simple_nlu) StdoutLine: {'line': b'creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index/packages\n'}
+[0.724003] (simple_nlu) StdoutLine: {'line': b'copying resource/simple_nlu -> /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index/packages\n'}
+[0.724119] (simple_nlu) StdoutLine: {'line': b'copying package.xml -> /QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu\n'}
+[0.724181] (simple_nlu) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.725470] (simple_nlu) StdoutLine: {'line': b'Copying build/simple_nlu/simple_nlu.egg-info to /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu-0.0.0-py3.8.egg-info\n'}
+[0.726408] (simple_nlu) StdoutLine: {'line': b'running install_scripts\n'}
+[0.742324] (simple_nlu) StdoutLine: {'line': b'Installing client script to /QA_ws/src/simple_nlu/install/simple_nlu/lib/simple_nlu\n'}
+[0.742672] (simple_nlu) StdoutLine: {'line': b'Installing server script to /QA_ws/src/simple_nlu/install/simple_nlu/lib/simple_nlu\n'}
+[0.742811] (simple_nlu) StdoutLine: {'line': b"writing list of installed files to '/QA_ws/src/simple_nlu/build/simple_nlu/install.log'\n"}
+[0.766562] (simple_nlu) CommandEnded: {'returncode': 0}
+[0.779193] (simple_nlu) JobEnded: {'identifier': 'simple_nlu', 'rc': 0}
+[0.780081] (-) EventReactorShutdown: {}

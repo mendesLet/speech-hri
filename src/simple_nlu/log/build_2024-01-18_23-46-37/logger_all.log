@@ -1,0 +1,89 @@
+[0.266s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'simple_nlu'][0m
+[0.266s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb2c856eb20>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['simple_nlu'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb2c856eb20>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb2c84f8130>)[0m
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.289s] [34mcolcon.colcon_metadata.package_discovery.colcon_meta[0m [1;30mINFO[0m Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.289s] [34mcolcon.colcon_metadata.package_discovery.colcon_meta[0m [1;30mINFO[0m Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.289s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.289s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.289s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.289s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.290s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.290s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/QA_ws/src/simple_nlu'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_python' and name 'simple_nlu'[0m
+[0.312s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.328s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_args' from command line to 'None'
+[0.328s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_target' from command line to 'None'
+[0.328s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_nlu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'simple_nlu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/QA_ws/src/simple_nlu/build/simple_nlu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/QA_ws/src/simple_nlu/install/simple_nlu', 'merge_install': False, 'path': '/QA_ws/src/simple_nlu', 'symlink_install': False, 'test_result_base': None}[0m
+[0.329s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.332s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.332s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/QA_ws/src/simple_nlu' with build type 'ament_python'
+[0.332s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('simple_nlu', 'ament_prefix_path')
+[0.338s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/ament_prefix_path.ps1'
+[0.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/ament_prefix_path.dsv'
+[0.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/ament_prefix_path.sh'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.540s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/QA_ws/src/simple_nlu'
+[0.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.853s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/QA_ws/src/simple_nlu': PYTHONPATH=/QA_ws/src/simple_nlu/build/simple_nlu/prefix_override:/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simple_nlu build --build-base /QA_ws/src/simple_nlu/build/simple_nlu/build install --record /QA_ws/src/simple_nlu/build/simple_nlu/install.log --install-scripts $base/lib/simple_nlu --single-version-externally-managed[0m
+[1.100s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/QA_ws/src/simple_nlu' returned '0': PYTHONPATH=/QA_ws/src/simple_nlu/build/simple_nlu/prefix_override:/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simple_nlu build --build-base /QA_ws/src/simple_nlu/build/simple_nlu/build install --record /QA_ws/src/simple_nlu/build/simple_nlu/install.log --install-scripts $base/lib/simple_nlu --single-version-externally-managed[0m
+[1.104s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu' for CMake module files
+[1.104s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu' for CMake config files
+[1.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu/lib'
+[1.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu/bin'
+[1.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu/lib/pkgconfig/simple_nlu.pc'
+[1.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages'
+[1.105s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('simple_nlu', 'pythonpath')
+[1.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/pythonpath.ps1'
+[1.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/pythonpath.dsv'
+[1.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/hook/pythonpath.sh'
+[1.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/QA_ws/src/simple_nlu/install/simple_nlu/bin'
+[1.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(simple_nlu)
+[1.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/package.ps1'
+[1.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/package.dsv'
+[1.110s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/package.sh'
+[1.110s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/package.bash'
+[1.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu/package.zsh'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/QA_ws/src/simple_nlu/install/simple_nlu/share/colcon-core/packages/simple_nlu)
+[1.112s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.112s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.112s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.112s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.119s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.119s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.119s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.119s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.119s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11[0m
+[1.119s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/QA_ws/src/simple_nlu/install/local_setup.ps1'
+[1.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/QA_ws/src/simple_nlu/install/_local_setup_util_ps1.py'
+[1.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/QA_ws/src/simple_nlu/install/setup.ps1'
+[1.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/QA_ws/src/simple_nlu/install/local_setup.sh'
+[1.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/QA_ws/src/simple_nlu/install/_local_setup_util_sh.py'
+[1.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/QA_ws/src/simple_nlu/install/setup.sh'
+[1.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/QA_ws/src/simple_nlu/install/local_setup.bash'
+[1.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/QA_ws/src/simple_nlu/install/setup.bash'
+[1.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/QA_ws/src/simple_nlu/install/local_setup.zsh'
+[1.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/QA_ws/src/simple_nlu/install/setup.zsh'

@@ -85,13 +85,17 @@ def getRetriever(embedding, dbEngine, useChroma: bool = False, chromaDirectory="
 
     VectorStoreRetriever: A retriever
     """
+    script_path = os.path.abspath(__file__)
+    script_dir = os.path.dirname(script_path)
+
+    os.chdir(script_dir)
 
     # Selects vectorstore for retriever
     if useChroma:
         db = dbEngine(persist_directory=chromaDirectory,
                 embedding_function=embedding)
     else:
-        db = dbEngine.load_local(faissDirectory, embedding)
+        db = dbEngine.load_local(os.path.join(script_dir, faissDirectory), embedding)
 
     # Using vectorstore as a retriever to retrieve k documents
     retriever = db.as_retriever(

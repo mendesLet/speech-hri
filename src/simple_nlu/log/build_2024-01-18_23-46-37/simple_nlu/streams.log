@@ -1,0 +1,38 @@
+[0.520s] Invoking command in '/QA_ws/src/simple_nlu': PYTHONPATH=/QA_ws/src/simple_nlu/build/simple_nlu/prefix_override:/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simple_nlu build --build-base /QA_ws/src/simple_nlu/build/simple_nlu/build install --record /QA_ws/src/simple_nlu/build/simple_nlu/install.log --install-scripts $base/lib/simple_nlu --single-version-externally-managed
+[0.685s] running egg_info
+[0.685s] creating build/simple_nlu/simple_nlu.egg-info
+[0.686s] writing build/simple_nlu/simple_nlu.egg-info/PKG-INFO
+[0.686s] writing dependency_links to build/simple_nlu/simple_nlu.egg-info/dependency_links.txt
+[0.686s] writing entry points to build/simple_nlu/simple_nlu.egg-info/entry_points.txt
+[0.686s] writing requirements to build/simple_nlu/simple_nlu.egg-info/requires.txt
+[0.687s] writing top-level names to build/simple_nlu/simple_nlu.egg-info/top_level.txt
+[0.687s] writing manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'
+[0.718s] reading manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'build/simple_nlu/simple_nlu.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.718s] creating /QA_ws/src/simple_nlu/build/simple_nlu/build
+[0.718s] creating /QA_ws/src/simple_nlu/build/simple_nlu/build/lib
+[0.719s] creating /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu
+[0.719s] copying simple_nlu/nlu_server.py -> /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu
+[0.719s] copying simple_nlu/__init__.py -> /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu
+[0.719s] running install
+[0.720s] running install_lib
+[0.721s] creating /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu
+[0.721s] copying /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu/nlu_server.py -> /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu
+[0.721s] copying /QA_ws/src/simple_nlu/build/simple_nlu/build/lib/simple_nlu/__init__.py -> /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu
+[0.721s] byte-compiling /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu/nlu_server.py to nlu_server.cpython-38.pyc
+[0.723s] byte-compiling /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu/__init__.py to __init__.cpython-38.pyc
+[0.723s] running install_data
+[0.723s] creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index
+[0.723s] creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index
+[0.724s] creating /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index/packages
+[0.724s] copying resource/simple_nlu -> /QA_ws/src/simple_nlu/install/simple_nlu/share/ament_index/resource_index/packages
+[0.724s] copying package.xml -> /QA_ws/src/simple_nlu/install/simple_nlu/share/simple_nlu
+[0.724s] running install_egg_info
+[0.725s] Copying build/simple_nlu/simple_nlu.egg-info to /QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages/simple_nlu-0.0.0-py3.8.egg-info
+[0.726s] running install_scripts
+[0.742s] Installing client script to /QA_ws/src/simple_nlu/install/simple_nlu/lib/simple_nlu
+[0.742s] Installing server script to /QA_ws/src/simple_nlu/install/simple_nlu/lib/simple_nlu
+[0.742s] writing list of installed files to '/QA_ws/src/simple_nlu/build/simple_nlu/install.log'
+[0.766s] Invoked command in '/QA_ws/src/simple_nlu' returned '0': PYTHONPATH=/QA_ws/src/simple_nlu/build/simple_nlu/prefix_override:/QA_ws/src/simple_nlu/install/simple_nlu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simple_nlu build --build-base /QA_ws/src/simple_nlu/build/simple_nlu/build install --record /QA_ws/src/simple_nlu/build/simple_nlu/install.log --install-scripts $base/lib/simple_nlu --single-version-externally-managed
