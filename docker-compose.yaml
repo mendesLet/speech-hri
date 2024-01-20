@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  hri:
+    container_name: simple_hri
+    image: simple_hri:1.2
+    # command:
+    tty: true
+    privileged: true
+    network_mode: "host"
+    runtime: nvidia
+    volumes:
+      - /dev/snd:/dev/snd
+      - ./src:/QA_ws/src
+    devices:
+      # - /dev/bus/usb
+      - /dev/snd

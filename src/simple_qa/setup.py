@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'qa = simple_qa.question_answer:main',
+            'qa = simple_qa.simple_qa:main',
         ],
     },
 )

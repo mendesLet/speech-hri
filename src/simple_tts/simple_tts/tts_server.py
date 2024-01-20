@@ -57,9 +57,9 @@ class TtsService(Node):
         try :
             self.output_device = int(sys.argv[1])
         except:
-            output_device_spec = sounddevice.query_devices(device='hyperx')
-            self.output_device = int(output_device_spec['index'])
-            self.get_logger().info(f"Output audio device setted as  > '{output_device_spec['name']}'")
+            output_device_specs = sounddevice.query_devices(device='logitech')
+            self.output_device = int(output_device_specs['index'])
+            self.get_logger().info(f"Input audio device setted as  > '{output_device_specs['name']}'")
 
     def tts_callback(self, request, response):
         auth = riva.client.Auth()

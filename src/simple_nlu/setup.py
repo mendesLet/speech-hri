@@ -1,6 +1,7 @@
 from setuptools import setup
 
 package_name = 'simple_nlu'
+submodules = "simple_nlu/code"
 
 setup(
     name=package_name,

@@ -1,5 +1,5 @@
 import sys
-
+import argparse
 from simple_interfaces.srv import TTS
 import rclpy
 from rclpy.node import Node
@@ -24,3 +24,19 @@ class TtsClient(Node):
         self.future = self.cli.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
+
+def arg_parser():
+  parser = argparse.ArgumentParser()
+  parser.add_argument(
+    '--query',
+    type=str,
+    help='The query to be processed by the TTS.')
+  
+  return parser.parse_args()
+  
+def main():
+    args = arg_parser()
+    rclpy.init()
+    tts = TtsClient()
+    tts.send_request(f'{args.query}')
+

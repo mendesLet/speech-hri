@@ -45,7 +45,7 @@ def generate_launch_description():
             OnProcessExit(
                 target_action=nlu_service_server,
                 on_exit=[
-                    LogInfo(msg=' Closing the turtlesim window'),
+                    LogInfo(msg=' Closing the launch window'),
                     EmitEvent(event=Shutdown(
                         reason='Window closed'))
                 ]

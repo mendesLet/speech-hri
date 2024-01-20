@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import pickle
 import openai
 import os
-from code.RAG import getRetriever, queryVectorDatabase
+from .code.RAG import getRetriever, queryVectorDatabase
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
