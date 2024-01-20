@@ -53,9 +53,13 @@ class TtsService(Node):
         super().__init__('simple_tts')
         # audio_io.list_output_devices()
         self.srv = self.create_service(TTS, 'text_to_speech', self.tts_callback)
-        output_device_spec = sounddevice.query_devices(device='hyperx')
-        self.output_device = int(output_device_spec['index'])
-        self.get_logger().info(f"Output audio device setted as  > '{output_device_spec['name']}'")
+
+        try :
+            self.output_device = int(sys.argv[1])
+        except:
+            output_device_spec = sounddevice.query_devices(device='hyperx')
+            self.output_device = int(output_device_spec['index'])
+            self.get_logger().info(f"Output audio device setted as  > '{output_device_spec['name']}'")
 
     def tts_callback(self, request, response):
         auth = riva.client.Auth()

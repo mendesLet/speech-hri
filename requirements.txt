@@ -7,3 +7,5 @@ faiss-cpu==1.7.4
 langchain==0.0.278
 langsmith==0.0.30
 pypdf==3.15.4
+grpcio
+sounddevice
