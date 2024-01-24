@@ -19,4 +19,4 @@ docker run -it --rm -v ${PWD}/src:/QA_ws/src simple_hri:1.0
 ```
 
 ## Artigo
-[The use of Normal language processing in Human-robot interaction](https://docs.google.com/document/d/1MkG015HzsU8Q-pBfOI-5GRXBzu8MAI4jqrihVEtxjL4/edit?usp=sharing)
+[The use of Normal language processing in Human-robot interaction](https://docs.google.com/document/d/1ervE7q6R8rKWfHUToJU5DKjqzcGiPN-L9vvx0U6cPo0/edit?usp=sharing)
