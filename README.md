@@ -46,3 +46,6 @@ ros2 run simple_qa qa
 ```
 ## Artigo
 [The use of Normal language processing in Human-robot interaction](https://docs.google.com/document/d/1ervE7q6R8rKWfHUToJU5DKjqzcGiPN-L9vvx0U6cPo0/edit?usp=sharing)
+
+## Slides
+[Slides](https://www.canva.com/design/DAF6pNGYe-c/S6yoU1TEf7UBl9AAQjRHyg/edit?utm_content=DAF6pNGYe-c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
