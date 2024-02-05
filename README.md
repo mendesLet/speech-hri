@@ -1,4 +1,4 @@
-# Uso de processamento de linguagem natural para interação entre humano e robô
+# Human-robot interaction with LLMs
 Currently, the perception of robots is often within an industrial scope and rarely considered in terms of interaction between humans and robots. However, over the last few years, it is possible to observe that this communication, as demonstrated by assistants like Alexa or even with communication with ChatGPT, has grown significantly. There is a growing interest among the population in this natural communication between machines and humans.
 
 ## How to start
