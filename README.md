@@ -1,5 +1,5 @@
 # Uso de processamento de linguagem natural para interação entre humano e robô
-Atualmente a visão sobre robôs é sempre um âmbito mais industrial e raramente pensado na interação com comunicação entre humanos e robôs, mas ao decorrer dos últimos anos é possível perceber que essa comunicação, como mostrado por assistentes como a alexa, ou mesmo com a comunicação com o chatGPT, tem crescido muito e é de interesse da população essa comunicação natural entre máquina e homem.
+Currently, the perception of robots is often within an industrial scope and rarely considered in terms of interaction between humans and robots. However, over the last few years, it is possible to observe that this communication, as demonstrated by assistants like Alexa or even with communication with ChatGPT, has grown significantly. There is a growing interest among the population in this natural communication between machines and humans.
 
 ## How to start
 Set up your .env file
@@ -44,8 +44,3 @@ In other terminal you can start the question and answer pipeline
 ```sh
 ros2 run simple_qa qa
 ```
-## Artigo
-[The use of Normal language processing in Human-robot interaction](https://docs.google.com/document/d/1ervE7q6R8rKWfHUToJU5DKjqzcGiPN-L9vvx0U6cPo0/edit?usp=sharing)
-
-## Slides
-[Slides](https://www.canva.com/design/DAF6pNGYe-c/S6yoU1TEf7UBl9AAQjRHyg/edit?utm_content=DAF6pNGYe-c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
